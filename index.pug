@@ -3,7 +3,8 @@ html(lang="en")
   head
     title John Shea
     style
-      include ./css/bootstrap-responsive.min.css
+      //- include ./css/bootstrap-responsive.min.css
+      include ./css/bootstrap.min.css
       include ./css/my.css
 
   body
@@ -20,7 +21,7 @@ html(lang="en")
         p a site devoted to helping high school students succeed at mathematics
 
       p
-        a.text-dark(href='/knitLatex') knitLatex
+        a.btn.btn-primary(href='/knitLatex') knitLatex
         p 
           | a CRAN package to assist in creating latex tables and a few knitr
           | helper functions
