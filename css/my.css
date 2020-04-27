@@ -1,5 +1,5 @@
 body {
     background-color: lightblue;
-    width: 70%;
+    max-width: 500px;
     margin: auto;
 }
